@@ -1,0 +1,67 @@
+body {
+    background: #FFFFFF;
+}
+
+.task-output {
+    border: double #1b1325;
+    margin: 10px;
+    padding: 10px;
+    font-size: large;
+    background: #e2daeb;
+    color: #1f1135;
+    border-radius: 10px;
+           }
+
+.task-container {
+    margin: 5px 20px;
+    
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+}
+
+.input-box {
+    margin: 10px;
+    height: 30px;
+    width: 50%;
+    border-color: #ff6e6c;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.save-btn {
+    width: 5%;
+    margin: 10px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background: #ff6e6c;
+    color: #1f1235;
+    cursor: pointer;
+}
+
+.img-task-container {
+    margin: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.del-img {
+    position: relative;
+    height: 25px;
+    width: auto;
+}
+
+.img-task-cantener {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-cantainer{
+ height: 400px;
+ overflow-y:scroll;
+}
